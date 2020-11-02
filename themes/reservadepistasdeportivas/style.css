@@ -11,3 +11,85 @@ Text Domain:  reservadepistasdeportivas
 */
 
 /* Escribe aquí tu propia hoja de estilos personal */
+
+/* color cabecera */ 
+header#masthead{
+	background-color: #FC9B5C;
+
+}
+
+#content.site-content{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+body:not(.theme-preset-active) footer#colophon{
+	color: black;
+	background-color: #FC9B5C;
+}
+
+.card{
+	padding-left: 0;
+	padding-right: 0;
+	
+}
+
+body{
+    background-color: white;
+}
+
+.cuadrado{
+    
+    min-height: 150px;
+    width: 100%;
+    background-color: #E6AF15;
+    color: white;
+    text-align: center;
+    border: solid 10px white;
+    padding: 1em;
+}
+
+
+
+
+
+
+.ui-datepicker-inline{
+    max-width: 100% !important;
+    margin-bottom: 2em;
+}
+
+.slots{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.fa-futbol, .fa-quidditch, .wp-svg-dribbble{
+    font-size: 7rem;
+}
+  
+
+.cuadrado {
+    position: relative;
+}
+.boton{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.tituloinicio{
+    padding: .5rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: century gothic;
+    }
+
+.entry-header{
+    display: none;
+}
