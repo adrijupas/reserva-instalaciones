@@ -47,6 +47,8 @@ body{
     text-align: center;
     border: solid 10px white;
     padding: 1em;
+    padding-top: 2em !important;
+    border-radius: 50px;
 }
 
 
@@ -73,13 +75,14 @@ body{
     position: relative;
 }
 .boton{
-    position: absolute;
+position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0);
+  
 
 }
 
@@ -92,4 +95,62 @@ body{
 
 .entry-header{
     display: none;
+}
+
+.lista-miniaturas{
+    width: 100px;
+    border: solid 1px #333;
+    box-shadow: 3px 3px 6px #333;
+    padding: .5em;
+    margin-bottom: 1em;
+    border-radius: .5em;
+}
+
+/* titulo widget derecha */
+.widget-title{
+    text-align: center;
+    margin: 1em 0;
+}
+
+.titulolink{
+    padding-top: 10%;
+}
+
+/* quitar la imagen de reservas */
+.post-thumbnail:first-child{
+    display: none;
+}
+
+.icono{
+    font-size: 5rem;
+}
+
+/* Estilo plantilla horarios */
+
+.tablahorarios{
+    background-color: lightgray;
+    border: solid 3px black;
+    
+}
+
+
+#secondary{
+    padding-left: 6em;
+    padding-top: 3em;
+}
+
+/* .navbar-toggler{
+    display: none;
+} */
+#colophon{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10000;
+    
+}
+
+.entry-content, aside{
+    margin-bottom:100px;
 }
